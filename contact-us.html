@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=100%">
+    <title>Bitrupt Trainee</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script rel="script" src="./myscripts.js"></script> -->
+</head>
+
+<body>
+    <div class="body_div">
+        <!-- from here  header is starting -->
+        <header>
+            <div id="header_div">
+                <div class="logo_div">
+                    <a href="./index.html">
+                        <img class="logo" src="./images/bitrupt_logo.png" alt="bitrupt_logo">
+                    </a>
+                </div>
+                <div class="title_div">
+                    <h2> My First Website By Bitrupt</h2>
+                </div>
+
+            </div>
+        </header>
+        <!-- header ending -->
+
+        <!-- from here starting side nav div and maind div -->
+        <div class="main_div clearfix">
+            <div class="nav_div">
+                <div>
+                    <div class="nav_btn nav_btn_home"><a href="./home.html">Home </a></div>
+                    <div class="nav_btn"><a href="./profile.html">Profile </a></div>
+                    <div class="nav_btn"><a href="./aboutus.html">About Us </a></div>
+                    <div class="nav_btn"><a href="./contact-us.html">Contact Us </a></div>
+                    <div class="nav_btn nav_btn_log"><a href="index.html">Log Out </a></div>
+                </div>
+            </div>
+            <div class="body_area_div clearfix">
+                <div class="content_div">
+                    <form id="con_form">
+                        <div class="contact_form">
+                            <label for="fname">Full Name:</label>
+                            <input class="cf_i" type="text" id="fname" name="fname" size="40" placeholder="Your name..."
+                                required>
+                        </div>
+
+                        <div class="contact_form">
+                            <label for="femail">Email:</label>
+                            <input class="cf_i" type="email" id="femail" name="femail" size="40"
+                                placeholder="Your email..." required>
+                        </div>
+
+                        <div class="contact_form">
+                            <label for="fcountry">Country:</label>
+                            <!-- Country names and Country Name -->
+                            <select class="cf_i" id="country" name="country">
+                                <option value="">country</option>
+                                <option value="Pakistan" selected>Pakistan</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="contact_form">
+                            <label for="fsubject">Subject:</label>
+                            <input class="cf_i" type="text" id="fsubject" name="fsubject" size="40"
+                                placeholder="Subject" required>
+                        </div>
+                        <div class="contact_form">
+                            <label for="fmsg">Your Message:</label>
+                            <textarea placeholder="Write Something..." id="fmsg" name="fmsg" rows="10" cols="50"
+                                required></textarea>
+                        </div>
+                        <div class="">
+                            <input class="submit_button" type="submit" id="sf">
+                            <!-- <button onclick="submitForm()" id="sf" class="submit_button">submit!</button> -->
+                        </div>
+                    </form>
+
+                </div>
+                <div class="object_div">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.26800268699034!2d67.02626670395303!3d24.85400995163899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f5a70a8370f%3A0x71747af0780cf74f!2sBitrupt!5e0!3m2!1sen!2s!4v1679115470342!5m2!1sen!2s"
+                        width="505" height="475" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- here is ending side nav div and main div -->
+    </div>
+    <footer>
+
+    </footer>
+
+
+
+    <script rel="script" src="./myscripts.js"></script>
+</body>
+
+</html>
