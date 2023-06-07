@@ -27,13 +27,16 @@
     flex: 1;
 }
 
+.img_logo{
+    width: 8vw;
+}
 .header-div-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
     flex: 4;
-    font-size: 200%;
+    font-size: 2.5vw;
     font-weight: bold;
     text-align: center;
 }
@@ -64,10 +67,11 @@
     margin-right: auto;
 }
 
-.log_out{
+.log_out {
     margin-top: auto;
     margin-bottom: 10%;
 }
+
 .col-9 {
     border-style: dotted;
     display: flex;
