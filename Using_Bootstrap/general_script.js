@@ -9,6 +9,9 @@ function collaps() {
     if (collapse) {
         document.getElementById("nav").setAttribute("class", "col1")
         document.getElementById("contarea").setAttribute("class", "col2")
+
+
+        console.log(document.getElementById("home_icon").innerText(""))
         collapse = false;
     }
     else {
