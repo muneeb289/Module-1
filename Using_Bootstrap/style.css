@@ -5,9 +5,11 @@
     font-family: 'Times New Roman', Times, serif;
 
 }
-.body{
+
+.body {
     background-color: darkgray;
 }
+
 /* unvisited link */
 a {
     color: black;
@@ -134,4 +136,15 @@ a {
     width: 40%;
     height: 50%;
     padding: 10px;
+}
+
+
+/* ================ contarea ================ */
+
+.contareaI{
+    background-color: red;
+}
+
+.contareaII {
+    background-color: black;
 }
