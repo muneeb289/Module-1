@@ -7,15 +7,17 @@ document.getElementById("nav").addEventListener("click", collaps, false)
 
 function collaps() {
     if (collapse) {
+
+        document.getElementById("div_home_icon").innerHTML = `<a href="./home.html"><p>Home</p></a>`;
+        document.getElementById("div_user_icon").innerHTML = `<a href="./profile.html"><p>Profile</p></a>`;
+        document.getElementById("div_au_icon").innerHTML = `<a href="./about.html"><p>About Us</p></a>`;
+        document.getElementById("div_cu_icon").innerHTML = `<a href="./contact-us.html"><p>Contact US</p></a>`;
+        
+        
+        document.getElementById("div_lo_icon").innerHTML = `<p>Log Out</p>`;
         document.getElementById("nav").setAttribute("class", "col1")
         document.getElementById("contarea").setAttribute("class", "col2")
         console.log(123)
-
-        document.getElementById("div_home_icon").innerHTML = "<p>Home</p>";
-        document.getElementById("div_user_icon").innerHTML = "<p>Profile</p>";
-        document.getElementById("div_au_icon").innerHTML = "<p>About Us</p>";
-        document.getElementById("div_cu_icon").innerHTML = "<p>Contact Us</p>";
-        document.getElementById("div_lo_icon").innerHTML = "<p>Log Out</p>";
 
         collapse = false;
     }
@@ -34,3 +36,7 @@ function collaps() {
     }
 
 }
+
+document.getElementById("div_lo_icon").addEventListener('click', () => {
+    location.replace('index.html')
+})

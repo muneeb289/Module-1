@@ -2,7 +2,7 @@
 
 var login = document.getElementById("login").addEventListener("click", loginvalidation, false)
 
-var passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,}$/;      // Regular expression to check if the password is strong enough
+var passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,10}$/;      // Regular expression to check if the password is strong enough
 
 
 function loginvalidation(e) {
@@ -20,11 +20,12 @@ function loginvalidation(e) {
     }
 
     if (!loginpassword.match(passwordRegex)) {
-        alert("Password must be at least 8 characters long and contain at least one lowercase letter, one uppercase letter, at least one symbol and one number");
+        alert("Password must be 8 to 10 characters long and contain at least one lowercase letter, one uppercase letter, at least one symbol and one number");
         document.getElementById("password").focus();
         return false;
 
     }
     // console.log(123)
-    location.assign('home.html')
+    location.replace('home.html')
+
 }
