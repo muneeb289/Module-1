@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bitrupt Trainee</title>
 
-
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
 
-<body class="container">
-    <div class="row">
+<body class="body">
+    <div class="row ">
         <div class="header-div">
             <div class="header-div-1 col">
                 <img class="img_logo" src="./images/bitrupt_logo.png" alt="bitrupt_logo.png">
@@ -24,23 +25,38 @@
         </div>
 
     </div>
-
-    <div class="row main">
-        <div class="row">
-            <div class="col-3  ">
+    <div id="maindiv" class="main">
+        <div id="nav" class="col-3 col3">
+            <div>
                 
-                    <div class="col-11">Home</div>
-                    <div class="col-11">Profile</div>
-                    <div class="col-11">About Us</div>
-                    <div class="col-11">Contact us</div>
-                    <div class="col-11 log_out">Log Out</div>
+                <div id="div_home_icon" class="col nav-col">
+                    <img id="home_icon" class="nav_col_icon" src="./images/home.svg" alt="Home">
+                </div>
+                <div id="div_user_icon" class="col nav-col">
+                    <img id="user_icon" class="nav_col_icon" src="./images/user.svg" alt="Profile">
+                </div>
+                <div id="div_au_icon" class="col nav-col">
+                    <img id="au_icon" class="nav_col_icon" src="./images/au.svg" alt="About Us">
+                </div>
+                <div id="div_cu_icon" class="col nav-col">
+                    <img id="cu_icon" class="nav_col_icon" src="./images/cu.svg" alt="Contact Us">
+                </div>
             </div>
-            <div class="col-9  ">
-                <p>MMM Lorem ipsum dolor sit amet consectetur adipisicing elit. MMM</p>
-<p></p>
+            <div>
+                <div id="div_lo_icon" class="col nav-col log_out">
+                    <img id="lo_icon" class="nav_col_icon" src="./images/lo.svg" alt="Log Out">
+                </div>
             </div>
+
+            <!-- <p>
+                <button id="button_collaps" class="nav-col">Muneebe</button>
+            </p> -->
+        </div>
+        <div id="contarea" class="col-9 col4">
+            <p>muneeb</p>
 
         </div>
+
     </div>
 
 
@@ -49,7 +65,7 @@
 
 
 
-    <script src="./index.js" rel="js"></script>
+    <!-- <script src="./index.js" rel="js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -59,6 +75,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="./general_script.js"></script>
 </body>
 
 </html>
