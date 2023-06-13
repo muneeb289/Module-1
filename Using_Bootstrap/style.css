@@ -3,13 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 .body {
     background-color: darkgray;
 }
-
 
 /* unvisited link */
 a {
@@ -139,7 +137,7 @@ a {
 }
 
 
-/* ================ contarea ================ */
+/* ================ contarea Starts here ================ */
 .contarea {
     display: flex;
     justify-content: space-between;
@@ -149,6 +147,7 @@ a {
 .div_container {
     padding-left: 0%;
     padding-right: 0%;
+    border-style: dotted;
     display: flex;
     height: 96%;
     width: 96%;
@@ -161,6 +160,8 @@ a {
     justify-content: space-between;
 }
 
+/* ================ Home Page starts here ================ */
+
 .contareaI,
 .contareaII {
     display: flex;
@@ -169,6 +170,100 @@ a {
     flex-direction: column;
     width: 49%;
     background-color: #EDE5E4;
+}
+
+.contareaII {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.contareaIh1 {
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 3vw;
 
 }
 
+.contareaIh2 {
+    display: flex;
+    justify-content: end;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.contareaIh3 {
+    display: flex;
+    justify-content: end;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+.contareaIIimg {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 41vw;
+    height: 74vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================ Home Page ends here ================ */
+
+
+/* ================ Contact Page starts here ================ */
+.div_xyz {
+    /* background-color: red; */
+    display: flex;
+
+}
+
+
+.div_col_form,
+.div_col_map {
+    display: flex;
+    justify-content: center;
+    background-color: #EDE5E4;
+    /* border-style: dotted; */
+    width: 48%;
+    margin: 1%;
+}
+
+.div_col_main {
+    display: flex;
+    background-color: #c5c3d7;
+    margin-top: 2%;
+    width: 35vw;
+    padding: 1%;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div_col_form_label {
+    display: flex;
+    justify-content: stretch;
+    border-style: dotted;
+    width: 09vw;
+}
+
+.div_col_form_input {
+    display: flex;
+    border-style: dotted;
+    width: 25vw;
+
+    /* justify-content: stretch; */
+}
+
+.div_col_form_input {}
+
+. {}
+
+
+/* ================ Contact Page ends here ================ */
